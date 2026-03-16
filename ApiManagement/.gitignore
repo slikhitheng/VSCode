@@ -1,0 +1,57 @@
+Name=.gitignore
+# Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.o
+*.a
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.sln.docstates
+*.userosscache
+*.suo
+*.sln.user
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies and packages
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime
+appsettings.Production.json
